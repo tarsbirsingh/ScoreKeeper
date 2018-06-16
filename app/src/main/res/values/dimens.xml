@@ -2,4 +2,8 @@
 <resources>
     <dimen name="fifty_Sp">50sp</dimen>
     <dimen name="thirty_Sp">30sp</dimen>
+    <dimen name="one_eight_zero_dp">180</dimen>
+    <dimen name="zero_dp">0dp</dimen>
+    <dimen name="three_seven_zero_dp">370</dimen>
+    <dimen name="one_eight_dp">18dp</dimen>
 </resources>

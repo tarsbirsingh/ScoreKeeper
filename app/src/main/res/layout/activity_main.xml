@@ -11,10 +11,10 @@
         android:background="@android:color/black">
         <ImageView
             android:layout_width="match_parent"
-            android:layout_height="180dp"
+            android:layout_height="@dimen/one_eight_zero_dp"
             android:contentDescription="@string/image"
             android:scaleType="centerCrop"
-            android:layout_marginTop="0dp"
+            android:layout_marginTop="@dimen/zero_dp"
             android:src="@drawable/basketball1" />
 
     <LinearLayout
@@ -24,8 +24,8 @@
         android:orientation="horizontal">
 
         <LinearLayout
-            android:layout_width="0dp"
-            android:layout_height="373dp"
+            android:layout_width="@dimen/zero_dp"
+            android:layout_height="@dimen/three_seven_zero_dp"
             android:layout_weight="1"
             android:orientation="vertical">
 
@@ -79,8 +79,8 @@
             android:layout_marginBottom="14dp"
             android:background="@android:color/holo_orange_light"/>
         <LinearLayout
-            android:layout_width="0dp"
-            android:layout_height="373dp"
+            android:layout_width="@dimen/zero_dp"
+            android:layout_height="@dimen/three_seven_zero_dp"
             android:layout_weight="1"
             android:orientation="vertical">
 
