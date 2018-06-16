@@ -1,9 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <dimen name="fifty_Sp">50sp</dimen>
     <dimen name="thirty_Sp">30sp</dimen>
-    <dimen name="one_eight_zero_dp">180</dimen>
+    <dimen name="fifty_Sp">50sp</dimen>
+    <dimen name="eight_zero_Sp">80sp</dimen>
     <dimen name="zero_dp">0dp</dimen>
-    <dimen name="three_seven_zero_dp">370</dimen>
+    <dimen name="eight_dp">8dp</dimen>
+    <dimen name="one_four_dp">14dp</dimen>
+    <dimen name="one_six_dp">16dp</dimen>
     <dimen name="one_eight_dp">18dp</dimen>
+    <dimen name="two_six_dp">26dp</dimen>
+    <dimen name="four_eight_dp">48dp</dimen>
+    <dimen name="one_two_zero_dp">120dp</dimen>
+    <dimen name="one_eight_zero_dp">180dp</dimen>
+    <dimen name="three_zero_zero_dp">300dp</dimen>
+    <dimen name="three_seven_zero_dp">370dp</dimen>
 </resources>

@@ -7,14 +7,14 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="vertical"
-        android:background="@android:color/black">
+        android:background="@android:color/black"
+        android:orientation="vertical">
         <ImageView
             android:layout_width="match_parent"
             android:layout_height="@dimen/one_eight_zero_dp"
+            android:layout_marginTop="@dimen/zero_dp"
             android:contentDescription="@string/image"
             android:scaleType="centerCrop"
-            android:layout_marginTop="@dimen/zero_dp"
             android:src="@drawable/basketball1" />
 
     <LinearLayout
@@ -29,12 +29,10 @@
             android:layout_weight="1"
             android:orientation="vertical">
 
-
-
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="18dp"
+                android:layout_marginTop="@dimen/one_eight_dp"
                 android:fontFamily="sans-serif"
                 android:gravity="center"
                 android:text="@string/team_a"
@@ -45,38 +43,38 @@
                 android:id="@+id/team_a_score"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="14dp"
+                android:layout_marginTop="@dimen/one_four_dp"
                 android:fontFamily="sans-serif"
                 android:gravity="center"
                 android:text="@string/zero"
                 android:textColor="@android:color/holo_orange_light"
-                android:textSize="80sp" />
+                android:textSize="@dimen/eight_zero_Sp" />
 
             <Button
-                android:layout_width="120dp"
+                android:layout_width="@dimen/one_two_zero_dp"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:layout_marginTop="14dp"
+                android:layout_marginTop="@dimen/one_four_dp"
                 android:background="@android:color/holo_orange_light"
+                android:onClick="addOneForTeamA"
                 android:text="@string/one_point"
-                android:textColor="@android:color/black"
-                android:onClick="addOneForTeamA"/>
+                android:textColor="@android:color/black"/>
 
             <Button
-                android:layout_width="120dp"
+                android:layout_width="@dimen/one_two_zero_dp"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:layout_marginTop="26dp"
+                android:layout_marginTop="@dimen/two_six_dp"
                 android:background="@android:color/holo_orange_light"
-                android:text="@string/two_point"
                 android:onClick="addTwoForTeamA"
+                android:text="@string/two_point"
                 android:textColor="@android:color/black" />
         </LinearLayout>
         <View
-            android:layout_width="8dp"
-            android:layout_height="300dp"
-            android:layout_marginTop="16dp"
-            android:layout_marginBottom="14dp"
+            android:layout_width="@dimen/eight_dp"
+            android:layout_height="@dimen/three_zero_zero_dp"
+            android:layout_marginBottom="@dimen/one_four_dp"
+            android:layout_marginTop="@dimen/one_six_dp"
             android:background="@android:color/holo_orange_light"/>
         <LinearLayout
             android:layout_width="@dimen/zero_dp"
@@ -88,7 +86,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="18dp"
+                android:layout_marginTop="@dimen/one_eight_dp"
                 android:fontFamily="sans-serif"
                 android:gravity="center"
                 android:text="@string/team_b"
@@ -98,40 +96,40 @@
                 android:id="@+id/team_b_score"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="14dp"
+                android:layout_marginTop="@dimen/one_four_dp"
                 android:fontFamily="sans-serif"
                 android:gravity="center"
                 android:text="@string/zero"
                 android:textColor="@android:color/holo_orange_light"
-                android:textSize="80sp" />
+                android:textSize="@dimen/eight_zero_Sp" />
             <Button
-                android:layout_width="120dp"
+                android:layout_width="@dimen/one_two_zero_dp"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:layout_marginTop="14dp"
+                android:layout_marginTop="@dimen/one_four_dp"
                 android:background="@android:color/holo_orange_light"
-                android:text="@string/one_point"
                 android:onClick="addOneForTeamB"
+                android:text="@string/one_point"
                 android:textColor="@android:color/black" />
             <Button
-                android:layout_width="120dp"
+                android:layout_width="@dimen/one_two_zero_dp"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:layout_marginTop="26dp"
+                android:layout_marginTop="@dimen/two_six_dp"
                 android:background="@android:color/holo_orange_light"
-                android:text="@string/two_point"
                 android:onClick="addTwoForTeamB"
+                android:text="@string/two_point"
                 android:textColor="@android:color/black" />
         </LinearLayout>
     </LinearLayout>
         <Button
-            android:layout_width="120dp"
+            android:layout_width="@dimen/one_two_zero_dp"
             android:layout_height="wrap_content"
-            android:text="@string/reset"
-            android:background="@android:color/holo_orange_light"
             android:layout_gravity="center"
-            android:layout_marginTop="48dp"
-            android:layout_marginBottom="48dp"
-            android:onClick="resetScore"/>
+            android:layout_marginBottom="@dimen/four_eight_dp"
+            android:layout_marginTop="@dimen/four_eight_dp"
+            android:background="@android:color/holo_orange_light"
+            android:onClick="resetScore"
+            android:text="@string/reset"/>
     </LinearLayout>
 </ScrollView>
