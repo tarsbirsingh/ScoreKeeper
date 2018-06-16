@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+   <ImageView
+       android:layout_width="match_parent"
+       android:layout_height="100dp"
+       android:src="@drawable/ic_launcher_background"
+       android:scaleType="centerCrop"
+       android:contentDescription="@string/image"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/team_a"
+            android:textSize="@dimen/thirty_Sp"
+            android:fontFamily="sans-serif"
+            android:gravity="center"
+            android:layout_marginTop="14dp"
+            android:textColor="@android:color/holo_orange_light"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/zero"
+            android:textSize="@dimen/fifty_Sp"
+            android:fontFamily="sans-serif"
+            android:gravity="center"
+            android:layout_marginTop="14dp"
+            android:textColor="@android:color/holo_orange_light"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/holo_orange_light"
+            android:gravity="center"
+            android:layout_marginTop="14dp"
+            android:text="@string/one_point"
+            android:textColor="@android:color/black" />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="14dp"
+            android:background="@android:color/holo_orange_light"
+            android:gravity="center"
+            android:text="@string/two_point"
+            android:textColor="@android:color/black" />
+    </LinearLayout>
+    </LinearLayout>
+</ScrollView>
