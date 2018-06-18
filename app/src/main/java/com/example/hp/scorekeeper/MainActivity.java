@@ -7,40 +7,50 @@ import android.widget.TextView;
 
 
 public class MainActivity extends AppCompatActivity {
-int score = 0;
+    int score = 0;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
     }
-    public void addOneForTeamA(View v){
-        score+=1;
+
+    public void addOneForTeamA(View v) {
+        score += 1;
         displayForTeamA(score);
     }
-    public void addTwoForTeamA(View v){
-        score+=2;
+
+    public void addTwoForTeamA(View v) {
+        score += 2;
         displayForTeamA(score);
     }
-    /**Second Team*/
-    public void addOneForTeamB(View v){
-        score+=1;
+
+    /**
+     * Second Team
+     */
+    public void addOneForTeamB(View v) {
+        score += 1;
         displayForTeamB(score);
     }
-    public void addTwoForTeamB(View v){
-        score+=2;
+
+    public void addTwoForTeamB(View v) {
+        score += 2;
         displayForTeamB(score);
     }
-    public void displayForTeamA(int score){
-        TextView scoreView  = findViewById(R.id.team_a_score);
+
+    public void displayForTeamA(int score) {
+        TextView scoreView = findViewById(R.id.team_a_score);
         scoreView.setText(String.valueOf(score));
     }
-public void displayForTeamB(int score){
-        TextView scoreViewB= findViewById(R.id.team_b_score);
+
+    public void displayForTeamB(int score) {
+        TextView scoreViewB = findViewById(R.id.team_b_score);
         scoreViewB.setText(String.valueOf(score));
-}
-public void resetScore(View v){
-        score=0;
+    }
+
+    public void resetScore(View v) {
+        score = 0;
         displayForTeamA(score);
         displayForTeamB(score);
-}
+    }
 }
