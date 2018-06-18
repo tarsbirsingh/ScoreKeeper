@@ -10,6 +10,7 @@
     <dimen name="one_eight_dp">18dp</dimen>
     <dimen name="two_six_dp">26dp</dimen>
     <dimen name="four_eight_dp">48dp</dimen>
+    <dimen name="five_zero_dp">50dp</dimen>
     <dimen name="one_two_zero_dp">120dp</dimen>
     <dimen name="one_eight_zero_dp">180dp</dimen>
     <dimen name="three_zero_zero_dp">300dp</dimen>
