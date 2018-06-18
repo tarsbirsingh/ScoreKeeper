@@ -135,7 +135,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_marginBottom="@dimen/four_eight_dp"
-            android:layout_marginTop="50dp"
+            android:layout_marginTop="@dimen/five_zero_dp"
             android:background="@android:color/holo_orange_light"
             android:onClick="resetScore"
             android:text="@string/reset" />
